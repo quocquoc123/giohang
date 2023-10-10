@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+        }
+
+        #img1 {
+            margin-left: auto;
+            margin-right: auto;
+            height: 150px;
+            max-width: 200px;
+            display: block;
+        }
+
+        
+
+        #buy-amount {
+            display: flex;
+        }
+
+        #buy-amount button {
+                width: 30px;
+                height: 20px;
+                outline: none;
+                background: none;
+                border: 1px solid #ececec;
+                cursor: pointer;
+        }
+
+        #buy-amount button svg {
+                    color: #909090;
+        }
+
+        #buy-amount button:hover svg {
+                    color: #4f4f4f;
+        }
+
+        #buy-amount #amount {
+                width: 35px;
+                text-align: center;
+                border: 1px solid #ececec;
+        }
+
+        #buy-amount button:hover {
+                background-color: #ececec;
+        }
+      
+
+
+        #tieude {
+            text-align: center;
+            font-size: 20px;
+            border-style: inset;
+        }
+        #giohang1{
+            width:1500px;
+            height:650px;
+        }
+        #sp1, #sp2 {
+            text-align: center;
+            
+            right: 50%;
+        }
+        #img1{
+            text-align:center;
+        }
+        #nut{
+            width:10px;
+            height:100px;
+        }
+        #tong{
+            font-size:20px;
+        }
+        #ghichu{
+            width:220px;
+            height:60px;
+        }
+        
+        #thanhtoan1{
+            height:35px;
+            width:120px;
+        }
+        
+        
+       
+
+    </style>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="StyleSheet1.css" />
+
+</head>
+<body>
+    <div id="giohang">
+        <table border="0" id="giohang1">
+            <h1>Giỏ Hàng</h1>
+            <tr id="tieude">
+                <td><p>Sản phẩm</p></td>
+                <td><p></p></td>
+                <td><p>Số lượng</p></td>
+                <td><p>tổng tiền</p></td>
+                <td><p>xóa</p></td>
+                <td>
+                    
+                    <p id="tong">Tổng tiền:74.870.000₫</p>
+                        
+                </td>
+                        
+            </tr>
+            <tr id="sp1">
+                <td>
+
+                    <img id="img1" src="https://shopdunk.com/images/thumbs/0020311_iphone-15-pro-max-256gb_240.webp" />
+                <td <p>iPhone 15 Pro Max 256GB</p>
+                <p>34.990.000₫</p>
+                <p><s>37.990.000₫</s><p>
+                <p>Natural Titanium</p>
+               </td>
+
+
+
+                <td id="sp2">
+                    <div id="buy-amount">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                            </svg>
+
+                        </button>
+                        <input type="text" name="amount" id="amount" />
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </td>
+                <td>
+                    <p>34.990.000₫</p>
+                </td>
+                <td>
+                    <p>X</p>
+                </td>
+                <td id=" thanhtoan">
+
+
+
+                    <button id="thanhtoan1" value="OK" type="button" onclick="hello()">Thanh toán</button><br />
+                    <input type="text" id="ghichu" placeholder="ghi chú">
+                    
+
+                </td>
+
+
+            </tr>
+
+
+            <tr id="sp1">
+                <th id="do">
+
+                    <img id="img1" src="https://shopdunk.com/images/thumbs/0020313_iphone-15-pro-128gb_240.webp" />
+                <td <p>iPhone 15 Pro 128GB</p>
+                <p>27.990.000₫</p>
+                <p><s>30.990.000₫</s></p>
+                <p>Blue Titanium</p></td>
+
+                </th>
+
+
+                <td>
+                    <div id="buy-amount">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                            </svg>
+
+                        </button>
+                        <input type="text" name="amount" id="amount" />
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                            </svg>
+
+                        </button>
+                    </div>
+                <td>
+                    <p>27.990.000₫</p>
+                </td>
+                <td>
+                    <p>X</p>
+                </td>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr id="sp1">
+                <th id="do">
+
+                    <img id="img1" src="https://shopdunk.com/images/thumbs/0012165_iphone-11-128gb_240.jpeg" />
+                <td <p>iPhone 11 128GB</p>
+                <p>11.890.000₫</p>
+                <p><s>16.990.000₫</s></p>
+                <p>Black</p></td>
+
+                </th>
+
+
+                <td>
+                    <div id="buy-amount">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                            </svg>
+
+                        </button>
+                        <input type="text" name="amount" id="amount" />
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                            </svg>
+
+                        </button>
+                    </div>
+                <td>
+                    <p>11.890.000₫</p>
+                </td>
+                <td>
+                    <p>X</p>
+                </td>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+        </table>
+
+    
+        <button name="button" value="OK" type="button" onclick="hello()">{-Tiếp tục mua hàng</button>
+        <script>
+            function hello() {
+                alert("Quốc Lũi");
+            }
+        </script>
+</body>
+</html>
